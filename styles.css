@@ -1,0 +1,99 @@
+p{
+    text-align: center;
+}
+
+
+.pagebreak{
+   page-break-after: always;
+   page-break-before: always;
+}
+
+
+  nav {
+    top: 0%;
+    width: 100%;
+    position: fixed;
+        
+  }
+  .container {
+    padding: 8px;
+    margin: 0 auto;
+    background-color: transparent;
+    text-align: center;
+    border-style: groove;
+    border-width: 3px;
+   
+  }
+  .container ul li {
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+
+  }
+  .container ul li a:hover {
+    padding: 12px;
+    color: #fc0;
+  }
+  .container ul li a {
+    margin: 8px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 0.3s ease-out;
+  }
+  .active {
+    border-bottom: 2px solid #d0d7d9;
+  }
+  .container p{
+  margin-bottom: 16px;
+  color: #fc0;
+  font-weight: 700;
+  font-size: 20px;
+  }
+  .item {
+    width: 100%;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    
+  }
+  .first {
+    margin-top: 100px;
+    
+  }
+  .default {
+    margin-top: 64px;
+  }
+  .col-full {
+    width: 1044px;
+  } 
+  #hp  {
+    float: right;    
+     margin: 0 0 0 15px;
+    }
+
+.homebg{
+    background-image: url("home_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+body, html {
+    height: 100%;
+  }
+
+.parallax {
+    /* The image used */
+    background-image: url("home_background.jpg");
+  
+    /* Set a specific height */
+    height: 100%;  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
