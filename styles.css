@@ -1,12 +1,10 @@
 p{
-    text-align: center;
+    text-align: left;
+}
+p1{
+    text-align:center;
 }
 
-
-.pagebreak{
-   page-break-after: always;
-   page-break-before: always;
-}
 
 
   nav {
@@ -54,13 +52,29 @@ p{
   }
   .item {
     width: 100%;
-    padding: 50px;
+    padding: 50px 0 50px 0;
     height: auto;
+    color: white;
     text-align: center;
     background-color: transparent;
     border-bottom: 1px solid #ccc;
     
   }
+
+  .defaultitem {
+    width: 100%;
+    padding: 50px 0;
+    vertical-align: middle;
+    margin: auto;
+    height: auto;
+    color: black;
+    text-align: center;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+}
+
+    
+  
   .first {
     margin-top: 100px;
     
@@ -71,18 +85,15 @@ p{
   .col-full {
     width: 1044px;
   } 
-  #hp  {
+  #aboutimg  {
     float: right;    
      margin: 0 0 0 15px;
     }
 
-.homebg{
-    background-image: url("home_background.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+
 body, html {
     height: 100%;
+    
   }
 
 .parallax {
@@ -96,4 +107,26 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  /* Gallery setup */
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
   }
