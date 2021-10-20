@@ -11,20 +11,28 @@
     <div class="parallax" background-image = "home_background.jpg">
                  <nav>
 
-                    <div class="container" id="myTopnav">
+                    <div class="container navitem" id="myTopnav">
                         <ul>
-                            <li><a href="#home" id="home">Home</a></li>
-                            <li><a href="#aboutus" id="aboutus">About Us</a></li>
-                            <li><a href="#projects" id="projects">Projects</a></li>
-                            <li><a href="#contactus" id="contactus">Contact Us</a></li>
+                           
+                            <li><a href="#home" >Home</a></li>
+                            <li><a href="#aboutus" >About Us</a></li>
+                            <li><a href="#projects" >Projects</a></li>
+                            <li><a href="#contactus" >Contact Us</a></li>
                         </ul>
+                        <ul><li> <a target="_blank" href="https://github.com/cmattox4846/PRSLS_Game">
+                            <img src="linkedin.png" alt="Linked In " width="20" height="20">
+                            </a> </li>
+                        <li><a target="_blank" href="https://github.com/cmattox4846/PRSLS_Game">
+                                <img src="fb.png" alt="FaceBook" width="20" height="20"></a></li>
+                        <li></a> <a target="_blank" href="https://github.com/cmattox4846/PRSLS_Game">
+                                    <img src="instagram.png" alt="IG" width="20" height="20"></a>
+                                    </li></ul>
                     </div>
                 </nav>
             
-            <div id="home" class="defaultitem" >
+            <div id="home" class="item" >
                 
-                <h1 class = 'nh1' >MATTOX MIXED MEDIA</h1>
-                <h2>Design to Development</h2>
+                <img src="MATTOX MIXED MEDIA.png" alt="" width="600" height="600" id="logo"/>
             
             </div>
             <div id="aboutus" class = "item">
@@ -42,37 +50,42 @@
             
             <div id="projects" class = "item">
             <table class = "table1"> 
+                <thead>
                 <tr>
-                     <td width = 100%><h1 class="h2">Protfolio</h2>
+                    <th><h1 class="h2">Protfolio</h2>
                 
-                        <p style = text-align:center>Check out some of my previous project!</p>
-                    </td>  
+                        <h4>Check out some of my previous project!</h4>
+                    </th>  
                             
                 </tr>
-                                
-                <td> <div class="gallery" >
-                    <a target="_blank" href="robotvsdino.jpg">
+                </thead>
+                <tbody>
+             <tr>                
+                <td style="padding: 0 50px 0 50px"> <div class="gallery" ><h3>Robots VS Dinosuars <br>Console Game</h3>
+                    <a target="_blank" href="https://github.com/cmattox4846/RobotsVsDino">
                     <img src="robotvsdino.jpg" alt="RVD Game" width= 600 height=400>
                     </a>
                     
                     </div>
                 </td>
                 
-                <td><div class="gallery">
-                    <a target="_blank" href="rpslsimage.png">
+                <td style="padding: 0 50px 0 50px"><div class="gallery"> <h3>Rock-Paper-Scissors<br>Lizard-Spock Game</h3>
+                    <a target="_blank" href="https://github.com/cmattox4846/PRSLS_Game">
                     <img src="rpslsimage.png" alt="RPSLS" width="600" height="400">
                     </a>
                     
                 </div>
                 </td>
-                <td> <div class="gallery">
+            </tr>
+            <tr>
+                <td style="padding: 0 50px 0 50px"><div class="gallery"> <h3>Shopping Cart module<br>(In Progress)</h3>
                     <a target="_blank" href="shoppingcart.jpg">
-                    <img src="shoppingcart.jpg" alt="shoppingcart" width="600" height="400">
+                    <img src="shoppingcart.jpg" alt="shoppingcart"  width="600" height="400">
                     </a>
                 
                 </div></td>
 
-                <td><div class="gallery">
+                <td style="padding: 0 50px 0 50px"><div class="gallery"><h3> See future Jobs Here!</h3>
                     <a target="_blank" href="More-to-come.jpg">
                     <img src="More-to-come.jpg" alt="More to Come" width="600" height="400">
                     </a>
@@ -80,14 +93,36 @@
                 </div></td>
                            
                            
-                </tr>
+            </tr></tbody>
             </table>     
             </div>
-                    <div id="contactus" class = "item">
-                        <h2>jQuery</h2>
-                        <p>Lorem ipsulm dolor sit amet rem adipisci delectus? consectetur adipisicing elit. Ipsam cum, voluptate vero, blanditiis voluptatum aut consectetur et in quam rem adipisci delectus enim quod a laudantium perferendis ad possimus culpa?</p>
-                    </div>
+           
+            <div class="item" id= "contactus">
+               <table class ="table1">
+                    <!-- <form action="action_page.php"> -->
+                        <tr><td><br><br><label for="fname">First Name</label><br>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name.."></td></tr>
+                  
+              <tr><td><label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.."></td></tr>
+                  
+                <tr><td><label for="lname">Email</label><br>
+                    <input type="text" id="email" name="email" placeholder="Your email.."></td></tr>
+                
+              <tr><td><label for="subject">Subject</label><br>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea></td></tr>
+                  
+              <tr><td><a href="mailto:cmattox4846@gmail.com">
+                <input type="submit" value="Submit"></a>
+              </td></tr>
+                  
+              
+                </form>
+                </table>
+              </div>
+           
     </div>
     
 </body>
+
 </html>
