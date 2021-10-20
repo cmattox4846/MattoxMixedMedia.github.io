@@ -1,9 +1,33 @@
 p{
     text-align: left;
 }
-p1{
-    text-align:center;
+.h1{
+    font-size: 50px;
+    color:  #2f3e46
 }
+.h2{font-size: 40px;
+    color: #2F3E46
+
+}
+
+.table1{
+    background-color: rgb(202,210,197,.75);
+    width: 95%;
+    color: #354f52 ;
+    margin-left: 25px ;
+    height:100%;
+    padding: 0 25px 0 25px;
+}
+
+.table2{
+    background-color: bisque;
+    width: 95%;
+    color: #52796f;
+    margin-left: 25px ;
+    height:100%;
+    padding: 0 25px 0 25px;
+}
+
 
 
 
@@ -16,7 +40,7 @@ p1{
   .container {
     padding: 8px;
     margin: 0 auto;
-    background-color: transparent;
+    background-color: rgb(0, 0, 0, .3);
     text-align: center;
     border-style: groove;
     border-width: 3px;
@@ -52,8 +76,9 @@ p1{
   }
   .item {
     width: 100%;
-    padding: 50px 0 50px 0;
-    height: auto;
+    padding: 50px 0px 50px 0px;
+    height: 500px;
+    
     color: white;
     text-align: center;
     background-color: transparent;
@@ -63,10 +88,10 @@ p1{
 
   .defaultitem {
     width: 100%;
-    padding: 50px 0;
-    vertical-align: middle;
-    margin: auto;
-    height: auto;
+    padding: 350px 0 0 0;
+    
+    
+    height: 500px;
     color: black;
     text-align: center;
     background-color: transparent;
@@ -91,22 +116,21 @@ p1{
     }
 
 
-body, html {
-    height: 100%;
-    
-  }
+
 
 .parallax {
     /* The image used */
     background-image: url("home_background.jpg");
   
     /* Set a specific height */
-    height: 100%;  
+    height: 100%; 
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
 
   /* Gallery setup */
@@ -115,6 +139,7 @@ body, html {
     border: 1px solid #ccc;
     float: left;
     width: 180px;
+    height: 200px;
   }
   
   div.gallery:hover {
@@ -123,7 +148,7 @@ body, html {
   
   div.gallery img {
     width: 100%;
-    height: auto;
+    height: 180px;
   }
   
   div.desc {
